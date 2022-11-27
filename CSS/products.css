@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.bgmain {
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    opacity: 0.5;
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header, main {
+    position: relative;
+}
+
+.primary__ {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h5 {
+    
+    font-weight: bolder;
+}
+
+p {
+    font-family: 'Lato',sans-serif;
+}
