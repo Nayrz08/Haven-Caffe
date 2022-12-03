@@ -4,29 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow: hidden;
-    height: 100vh;
-}
-
-.bgmain {
-    position: relative;
-}
-
-.bg {
-    position: absolute;
-    opacity: 0.5;
-    height: auto;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-header, main, footer, form, h3 {
-    position: relative;
-}
-
 .primary__ {
     color: black;
     text-decoration: underline;
