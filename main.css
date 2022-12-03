@@ -15,6 +15,13 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.menu {
+    display: none;
+    width: 200px;
+    height: 100px;
+}
+
 .container-1 {
     border-radius: 5px;
     position: relative;
@@ -158,4 +165,77 @@ footer {
 .socmed {
     height: 30px;
     padding-right: 20px;
+}
+
+@media (max-width: 575px) {
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        margin-top: 30px;
+        display: flex;
+        padding-left: 120px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+    .img {
+        margin: auto;
+        height: 300px;
+    }
+    .text {
+        display: block;
+        width: 500px;
+    }
+
+    .img-2 {
+        margin: 20px auto;
+        width: 500px;
+    }
+
+    .img-3 {
+        margin: 20px auto;
+        width: 500px;
+    }
+
+    .box4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+    .box {
+        flex-direction: column;
+    }
+    .img {
+        margin: auto;
+        height: 300px;
+    }
+    .text {
+        display: block;
+        width: 500px;
+    }
+
+    .img-2 {
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .img-3 {
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .container-4 {
+        height: 100%;
+    }
+
+    .box4 {
+        width: 50%;
+    }
 }
